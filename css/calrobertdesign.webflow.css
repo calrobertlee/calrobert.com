@@ -2343,6 +2343,20 @@ strong {
   justify-content: center;
 }
 
+.home-project-section.hidden {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: none;
+  width: 100%;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+
 .project-container-2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5939,7 +5953,6 @@ html.w-mod-js *[data-ix="g-1"] {
     position: static;
   }
   .home-project-section.hidden {
-    display: none;
     position: static;
   }
   .project-container-2 {
