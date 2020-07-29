@@ -5938,6 +5938,10 @@ html.w-mod-js *[data-ix="g-1"] {
   .home-project-section {
     position: static;
   }
+  .home-project-section.hidden {
+    display: none;
+    position: static;
+  }
   .project-container-2 {
     width: 100%;
     margin-right: 60px;
