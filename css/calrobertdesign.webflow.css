@@ -2771,6 +2771,13 @@ strong {
   background-repeat: no-repeat;
 }
 
+.project-bg.tradeup {
+  background-image: url('../images/tradeup-img-trust.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .bg-mask {
   display: -webkit-box;
   display: -webkit-flex;
