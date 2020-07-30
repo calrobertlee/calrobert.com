@@ -1699,8 +1699,8 @@ strong {
 }
 
 .developing-alert {
-  position: fixed;
-  left: 0%;
+  position: absolute;
+  left: auto;
   top: 0%;
   right: auto;
   bottom: 0%;
@@ -1730,7 +1730,7 @@ strong {
 }
 
 .developing-alert-con {
-  position: fixed;
+  position: relative;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -1749,7 +1749,7 @@ strong {
   padding: 10px;
   background-color: transparent;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #c62121;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
