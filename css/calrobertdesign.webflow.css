@@ -3198,7 +3198,7 @@ strong {
   color: #181818;
   font-size: 18px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -3544,12 +3544,12 @@ strong {
   cursor: default;
 }
 
-.g-text-6 {
+.g-text-6 { /* sonera */
   position: absolute;
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #ededed;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
