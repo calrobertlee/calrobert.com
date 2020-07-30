@@ -1699,7 +1699,7 @@ strong {
 }
 
 .developing-alert {
-  display: none;
+  visibility: hidden;
   position: fixed;
   left: 0px;
   /*top: 0%;*/
