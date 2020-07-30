@@ -1729,7 +1729,6 @@ strong {
   -ms-flex-align: center;
   align-items: center;
 }
-
 .developing-alert-con {
   position: relative;
   -webkit-align-self: auto;
@@ -1741,7 +1740,6 @@ strong {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
-
 .developing-alert-red-text {
   position: static;
   display: block;
