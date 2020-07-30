@@ -1699,8 +1699,8 @@ strong {
 }
 
 .developing-alert {
-  position: absolute;
-  left: auto;
+  position: fixed;
+  left: 0px;
   top: 0%;
   right: auto;
   bottom: 0%;
@@ -1709,8 +1709,8 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30VW;
-  height: 40px;
+  width: auto;
+  height: 60px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1746,7 +1746,7 @@ strong {
   display: block;
   margin-right: 10px;
   margin-left: 10px;
-  padding: 10px;
+  padding: 25px;
   background-color: transparent;
   font-family: 'Cal custom', sans-serif;
   color: #ff0000;
