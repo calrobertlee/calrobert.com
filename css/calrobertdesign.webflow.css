@@ -3498,6 +3498,52 @@ strong {
   cursor: default;
 }
 
+.gallery-image-container-13 {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: default;
+}
+
+.gallery-image-container-14 {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: default;
+}
+
 .g-text-6 {
   position: absolute;
   z-index: 1;
@@ -3571,6 +3617,30 @@ strong {
 }
 
 .g-text-12 {
+  position: absolute;
+  z-index: 1;
+  padding-bottom: 10px;
+  font-family: 'Cal custom', sans-serif;
+  color: #181818;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.g-text-13 {
+  position: absolute;
+  z-index: 1;
+  padding-bottom: 10px;
+  font-family: 'Cal custom', sans-serif;
+  color: #181818;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.g-text-14 {
   position: absolute;
   z-index: 1;
   padding-bottom: 10px;
