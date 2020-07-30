@@ -2676,8 +2676,12 @@ strong {
   background-color: #2f3333;
 }
 
+.project-splash-section.sonera {
+  background-color: #0d1130;
+}
+
 .project-splash-section.tradeup {
-  background-color: #2b2b5c;
+  background-color: #101d48;
 }
 
 .project-bg {
