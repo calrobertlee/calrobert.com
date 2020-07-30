@@ -1699,6 +1699,7 @@ strong {
 }
 
 .developing-alert {
+  display: none;
   position: fixed;
   left: 0px;
   /*top: 0%;*/
