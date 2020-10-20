@@ -1818,7 +1818,6 @@ strong {
 }
 
 .left-nav-link {
-  position: fixed;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
