@@ -592,6 +592,8 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
+
+/* BREAKPOINT — Mobile Portrait — 991px wide and below */
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -644,6 +646,8 @@ textarea.w-select {
     right: auto;
   }
 }
+
+/* BREAKPOINT — Mobile Landscape — 767px wide and below */
 @media screen and (max-width: 767px) {
   .w-hidden-main {
     display: inherit !important;
@@ -701,6 +705,8 @@ textarea.w-select {
     width: 100%;
   }
 }
+
+/* BREAKPOINT — Mobile Portrait — 479px wide and below */
 @media screen and (max-width: 479px) {
   .w-container {
     max-width: none;

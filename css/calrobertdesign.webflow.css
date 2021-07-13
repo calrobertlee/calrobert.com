@@ -5664,7 +5664,7 @@ html.w-mod-js *[data-ix="roll-over-fade-5"] {
 html.w-mod-js *[data-ix="g-1"] {
   opacity: 1;
 }
-
+/* BREAKPOINT — Tablet — 991px wide and below */
 @media screen and (max-width: 991px) {
   .text-large {
     font-size: 40px;
@@ -6823,6 +6823,7 @@ html.w-mod-js *[data-ix="g-1"] {
   }
 }
 
+/* BREAKPOINT — Mobile Landscape — 767px wide and below */
 @media screen and (max-width: 767px) {
   .container.hyperlinks {
     min-height: 40px;
@@ -7358,6 +7359,7 @@ html.w-mod-js *[data-ix="g-1"] {
   }
 }
 
+/* BREAKPOINT — Mobile Portrait — 479px wide and below */
 @media screen and (max-width: 479px) {
   .container {
     margin-right: 20px;

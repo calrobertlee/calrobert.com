@@ -1,4 +1,9 @@
-.v3-cta-button {
+/* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
+
+
+/* BUTTONS*/
+/* Footer CTA Button — Version 3 Redesign — July 12th 2021 */
+.v3-cta-button { 
     display: inline-block;
     
     font-family: 'Cal custom', sans-serif;
@@ -14,4 +19,19 @@
     color: white;
     background-color: #0055FF;
     border-radius: 4px;
+}
+
+/* BREAKPOINT — Tablet — 991px wide and below */
+@media screen and (max-width: 991px) {
+
+}
+
+/* BREAKPOINT — Mobile Landscape — 767px wide and below */
+@media screen and (max-width: 767px) {
+
+}
+
+/* BREAKPOINT — Mobile Portrait — 479px wide and below */
+@media screen and (max-width: 479px) {
+
 }
