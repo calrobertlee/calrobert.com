@@ -100,13 +100,13 @@
     right: 0px;
     top: 0px;
 }
-.v3-copyright-w-socialframe {
+.v3-colophon-w-socialframe {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-self: stretch;
 }
-.v3-copyright {
+.v3-colophon {
     position: relative;
     align-self: flex-start;
     width: max-content;
