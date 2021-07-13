@@ -5,31 +5,42 @@
     #BUTTONS
  ----------------- */
 
-.v3-cta-button { /* Footer CTA Button — Version 3 Redesign — July 12th 2021 */
+.v3-cta-button {
     display: inline-block;
     
-    /* font stuff */
     font-family: 'Cal custom', sans-serif;
     font-weight: 400;   
     text-decoration: none; 
     line-height: normal;  
 
-    /* position & shape */
     padding: 16px 32px;
     position: relative;
     width: 183px;
     height: 54px;
     border-radius: 4px;
 
-    /* colors */
     color: white;
-    background-color: #0055FF;
+    background-color: #002AFE;
 }
-.v3-cta-button:hover { 
-    /* hover shadow */ 
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-}
+.v3-cta-button::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
 
+    background-color: rgba(230, 234, 255, 0.125);
+
+    opacity: 0;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: opacity 0.175s ease-out;
+}
+.v3-cta-button:hover::after {
+    opacity: 1;
+}
+  
 /* ----------------- 
     #TEXT
  ----------------- */
