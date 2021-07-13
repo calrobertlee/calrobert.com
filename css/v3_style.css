@@ -3,8 +3,6 @@
 /* #NAVBAR & FOOTER */
 
 .v3-navbar {
-    /* nav_bar */
-
     /* Auto Layout */
     display: flex;
     flex-direction: column;
@@ -20,42 +18,29 @@
     top: 0px;
 }
 .v3-logo-w-menuframe {
-    /* logo-w-menu_frame */
-
-    /* Auto Layout */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 1824px;
-    height: 24px;
-    left: calc(50% - 1824px/2);
-    top: 32px;
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 0;
     align-self: stretch;
-    flex-grow: 0;
-    margin: 10px 0px;
 }
 .v3-logo {
-    /* logo */
+    position: relative;
+    align-self: flex-start;
+    width: max-content;
+    height: max-content;
 
-    position: static;
-    width: 183px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 31px;
+    font-family: Test Söhne Breit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
 }
 .v3-menuframe {
     /* menu-item_frame */
@@ -87,7 +72,7 @@
     text-decoration: none;
     /* identical to box height */
     display: flex;
-    align-items: center;
+    align-items: top;
     text-transform: uppercase;
 
     color: #000000;
