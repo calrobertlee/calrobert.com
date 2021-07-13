@@ -1,21 +1,17 @@
 .v3-cta-button {
-    position: relative;
-    z-index: 5;
-    margin-right: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
-    border-style: none;
-    border-width: 1px;
-    border-color: rgba(24, 24, 24, 0.25);
-    background-color: #0061ff;
+    display: inline-block;
+    
     font-family: 'Cal custom', sans-serif;
-    color: #fff;
-    font-weight: 400;
+    font-weight: 400;   
+    text-decoration: none; 
+    line-height: normal;  
 
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    border-radius: 2px;
-    box-shadow: 0 1px 16px 1px rgba(0, 0, 0, 0.12);
+    padding: 16px 32px;
+    position: relative;
+    width: 183px;
+    height: 54px;
+
+    color: white;
+    background-color: #0055FF;
+    border-radius: 4px;
 }
