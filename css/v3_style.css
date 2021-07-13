@@ -1,25 +1,57 @@
 /* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
 
 
-/* BUTTONS*/
-/* Footer CTA Button — Version 3 Redesign — July 12th 2021 */
-.v3-cta-button { 
+/* ----------------- 
+    #BUTTONS
+ ----------------- */
+
+.v3-cta-button { /* Footer CTA Button — Version 3 Redesign — July 12th 2021 */
     display: inline-block;
     
+    /* font stuff */
     font-family: 'Cal custom', sans-serif;
     font-weight: 400;   
     text-decoration: none; 
     line-height: normal;  
 
+    /* position & shape */
     padding: 16px 32px;
     position: relative;
     width: 183px;
     height: 54px;
+    border-radius: 4px;
 
+    /* colors */
     color: white;
     background-color: #0055FF;
-    border-radius: 4px;
 }
+.v3-cta-button:hover { 
+    /* hover shadow */ 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ----------------- 
+    #TEXT
+ ----------------- */
+
+ /* Caption */
+ .v3-caption {
+    margin-bottom: 30px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+  
+    color: #181818;
+ }
+
+
+/* ----------------- 
+    #BREAKPOINTS
+ ----------------- */
 
 /* BREAKPOINT — Tablet — 991px wide and below */
 @media screen and (max-width: 991px) {
