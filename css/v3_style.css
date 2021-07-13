@@ -108,22 +108,13 @@
 }
 .v3-colophon {
     position: relative;
-    align-self: flex-start;
-    width: max-content;
-    height: max-content;
 
     font-family: Courier;
-    font-style: normal;
-    font-weight: normal;
     font-size: 11px;
     line-height: 13px;
     text-decoration: none;
-    display: flex;
     align-items: center;
-    text-transform: capitalize;
-
-    display: flex;
-    align-items: center;
+    vertical-align: ;
 
     color: #000000;
 }
@@ -300,7 +291,24 @@
         margin-left: 30px;
         padding-bottom: 60px;
     }
-    .v3-copyright-w-socialframe {
+    .v3-footerbar {
+        /* Auto Layout */
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 24px;
+    }
+    .v3-colophon-w-socialframe {
+        display: flex;
+        flex-direction: column;
+    }
+    .v3-colophon {
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    .v3-socialframe {
+        flex-direction: row;
+        justify-content: center;
     }
 }
