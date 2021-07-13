@@ -1,11 +1,9 @@
 /* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
 
-
 /* ----------------- 
     #BUTTONS
  ----------------- */
-/* button */
-.v3-button {
+.v3-button { /* button */
     display: inline-block;
     
     font-family: 'Cal custom', sans-serif;
@@ -22,7 +20,7 @@
     color: white;
     background-color: #002AFE;
 }
-.v3-button::after {
+.v3-button::after { /* button */
     content: ' ';
     position: absolute;
     top: 0;
@@ -37,16 +35,14 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: opacity 0.175s ease-out;
 }
-.v3-button:hover::after {
+.v3-button:hover::after { /* button */
     opacity: 1;
 }
   
 /* ----------------- 
     #TEXT
  ----------------- */
-
-/* caption */
- .v3-caption {
+ .v3-caption { /* caption */
     margin-bottom: 30px;
 
     font-family: Courier;
@@ -59,6 +55,39 @@
     color: #181818;
  }
 
+ /* ----------------- 
+    #CONTAINERS
+ ----------------- */
+.v3-footer-con { /* footer con */
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 960px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 100%;
+    padding-bottom: 33vh;
+}
 
 /* ----------------- 
     #BREAKPOINTS
@@ -76,5 +105,4 @@
 
 /* BREAKPOINT — Mobile Portrait — 479px wide and below */
 @media screen and (max-width: 479px) {
-
 }
