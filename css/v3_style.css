@@ -1,15 +1,15 @@
 /* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
 
-/* ----------------- 
-    #BUTTONS
- ----------------- */
-.v3-button { /* button */
+/* #BUTTONS */
+
+.v3-button {
+    /* button */
     display: inline-block;
-    
+
     font-family: 'Cal custom', sans-serif;
-    font-weight: 400;   
-    text-decoration: none; 
-    line-height: normal;  
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
 
     padding: 16px 32px;
     position: relative;
@@ -20,7 +20,9 @@
     color: white;
     background-color: #002AFE;
 }
-.v3-button::after { /* button */
+
+.v3-button::after {
+    /* button */
     content: ' ';
     position: absolute;
     top: 0;
@@ -35,14 +37,16 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: opacity 0.175s ease-out;
 }
-.v3-button:hover::after { /* button */
+
+.v3-button:hover::after {
+    /* button */
     opacity: 1;
 }
-  
-/* ----------------- 
-    #TEXT
- ----------------- */
- .v3-caption { /* caption */
+
+/* #TEXT */
+
+.v3-caption {
+    /* caption */
     margin-bottom: 30px;
 
     font-family: Courier;
@@ -51,19 +55,19 @@
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-  
+
     color: #181818;
- }
+}
 
- /* ----------------- 
-    #CONTAINERS
- ----------------- */
-.v3-footer-con { /* footer con */
+/* #CONTAINERS */
 
+.v3-footer-con {
+    /* footer con */
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 85%;
     max-width: 960px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -83,26 +87,39 @@
     flex: 0 auto;
     -webkit-perspective: 2000px;
     perspective: 2000px;
-    margin-right: 60px;
-    margin-left: 60px;
-    width: 100%;
     padding-bottom: 33vh;
 }
 
-/* ----------------- 
-    #BREAKPOINTS
- ----------------- */
+/* #BREAKPOINTS*/
 
-/* BREAKPOINT — Tablet — 991px wide and below */
 @media screen and (max-width: 991px) {
 
+    /* BREAKPOINT — Tablet — 991px wide and below */
+    .v3-footer-con {
+        width: 100%;
+        margin-right: 60px;
+        margin-left: 60px;
+        padding-bottom: 120px;
+    }
 }
 
-/* BREAKPOINT — Mobile Landscape — 767px wide and below */
 @media screen and (max-width: 767px) {
 
+    /* BREAKPOINT — Mobile Landscape — 767px wide and below */
+    .v3-footer-con {
+        width: 85%;
+        padding-bottom: 60px;
+    }
 }
 
-/* BREAKPOINT — Mobile Portrait — 479px wide and below */
+
 @media screen and (max-width: 479px) {
+
+    /* BREAKPOINT — Mobile Portrait — 479px wide and below */
+    .v3-footer-con {
+        width: 100%;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-bottom: 60px;
+    }
 }
