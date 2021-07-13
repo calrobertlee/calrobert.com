@@ -1,21 +1,102 @@
 /* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
 
-/* #BUTTONS */
+/* #NAVBAR & FOOTER */
 
 .v3-navbar {
+    /* nav_bar */
 
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 48px 24px;
+
+    position: fixed;
+    z-index: 10;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 .v3-logo-w-menuframe {
+    /* logo-w-menu_frame */
 
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1824px;
+    height: 24px;
+    left: calc(50% - 1824px/2);
+    top: 32px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
 }
 .v3-logo {
-    
+    /* logo */
+
+    position: static;
+    width: 183px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 31px;
 }
 .v3-menuframe {
+    /* menu-item_frame */
 
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    top: 0px;
 }
-.v3-menu-item {
+.v3-menu-link {
+    /* menu-link */
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
+    /* Alt Medium */
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
 }
 
 /* #BUTTONS */
