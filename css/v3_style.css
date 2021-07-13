@@ -145,6 +145,29 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+.v3-social-link-twitter {
+    /* menu-link */
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 24px;
+    height: 24px;
 
     display: flex;
     align-items: center;
