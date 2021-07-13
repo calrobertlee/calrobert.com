@@ -1,0 +1,18 @@
+.v3-cta-button {
+    /* State=default */
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+
+    position: absolute;
+    width: 183px;
+    height: 54px;
+    left: 19px;
+    top: 17px;
+
+    background: #0055FF;
+    border-radius: 4px;
+}
