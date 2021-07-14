@@ -3110,18 +3110,6 @@ strong {
   display: block;
 }
 
-.g-text-1 {
-  position: absolute;
-  z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: center;
-}
-
 .pic-2 {
   position: relative;
   z-index: auto;
@@ -3553,42 +3541,20 @@ strong {
   text-align: center;
 }
 
-.g-text-12 {
+.g-text-1, .g-text-2, .g-text-3, .g-text-4, .g-text-5, .g-text-6, .g-text-7, .g-text-8, .g-text-9, .g-text-10, .g-text-11, .g-text-12, .g-text-13, .g-text-14 {
   position: absolute;
   z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
+  padding-bottom: 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 32px;
-  font-weight: 300;
+  color: #181818;
   text-align: center;
 }
-
-.g-text-13 {
-  position: absolute;
-  z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: center;
+.g-text-5 {
+  color: #f0f0f0f1; 
 }
-
-.g-text-14 {
-  position: absolute;
-  z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: center;
-}
-
 .slide-2 {
   border-radius: 6px;
   background-image: url('../images/57125763_2333482706940205_1002290988581912576_o.jpg'), url('../images/IMG_3035.jpeg');
@@ -6203,62 +6169,6 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-  }
-  .g-text-1 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-3.white {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-2 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-4 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-5 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-6 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-7 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-8 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-9 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-10 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-11 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-12 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-13 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-14 {
-    font-size: 16px;
-    line-height: 16px;
   }
   .dashboard-hero-image {
     display: block;
