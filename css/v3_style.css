@@ -282,6 +282,18 @@
     perspective: 2000px;
     padding-bottom: 25vh;
 }
+.about-imgframe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 960px;
+    padding-bottom: 32px;
+}
+.v3-about-image {
+    display: inline-block;
+    height: 310px;
+    overflow: hidden;
+}
 
 /* #BREAKPOINTS*/
 
