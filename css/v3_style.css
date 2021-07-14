@@ -256,31 +256,15 @@
 
 .v3-footer-con {
     /* footer con */
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     width: 85%;
     max-width: 960px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
     align-self: auto;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
     flex: 0 auto;
-    -webkit-perspective: 2000px;
     perspective: 2000px;
-    padding-bottom: 25vh;
+    padding-bottom: 20vh;
 }
 .about-imgframe {
     display: flex;
