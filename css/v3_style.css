@@ -1,5 +1,14 @@
 /* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
 
+/* #BODY */
+
+.v3-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* #NAVBAR & FOOTER */
 
 .v3-navbar {
@@ -91,7 +100,7 @@
     justify-content: center;
     align-items: center;
     padding: 8px 48px;
-    width: 100vw;
+    width: 100%;
 
     position: static;
     z-index: 10;
@@ -227,6 +236,20 @@
     text-transform: uppercase;
 
     color: #181818;
+}
+
+/* #SECTIONS */
+
+.main-section {
+    /* main-section */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 960px;
+    height: auto;
+    padding-top: 25vh;
+    padding-bottom: 70px;    
 }
 
 /* #CONTAINERS */
