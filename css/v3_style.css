@@ -244,13 +244,10 @@
 
     color: #181818;
 }
-.v3-body {
+.v3-body-style {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: var(--font-color-black);
-}
-.v3-small {
-    font-size: 14px;
 }
 
 /* #SECTIONS */
@@ -301,7 +298,7 @@
 }
 .resume-layout-grid {
     display: grid;
-    grid-template-columns: 0.25fr 1fr;
+    grid-template-columns: 0.314fr 1fr;
     grid-template-rows: auto;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
