@@ -91,7 +91,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: Aeonik;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 70.7px;
   font-weight: 500;
@@ -108,7 +108,7 @@ strong {
 .text-large.home-page {
   margin-top: 240px;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 70.7px;
   font-weight: 500;
@@ -560,7 +560,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 32px;
   line-height: 42px;
   font-weight: 600;
@@ -682,7 +682,7 @@ strong {
 
 .text-caption.black.bold {
   margin-bottom: 20px;
-  color: #181818;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -760,7 +760,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 40px;
   line-height: 46px;
   font-weight: 500;
@@ -784,13 +784,13 @@ strong {
 .text-heading-2.white.regular.red {
   margin-bottom: 0px;
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 36px;
   line-height: 40px;
 }
 
 .text-heading-2.black {
-  color: #181818;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -809,7 +809,7 @@ strong {
 .text-heading-2.white.regular.red {
   margin-bottom: 0px;
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 36px;
   line-height: 40px;
 }
@@ -820,7 +820,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   font-weight: 400;
 }
@@ -967,7 +967,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -1111,7 +1111,7 @@ strong {
 }
 
 .text-span-5 {
-  color: #181818;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -1138,7 +1138,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25.45px;
   line-height: 25.45px;
   font-weight: 600;
@@ -1227,7 +1227,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 25.45px;
   font-weight: 400;
@@ -1643,7 +1643,7 @@ strong {
 
 .text-score {
   font-family: 'SF Compact Display', sans-serif;
-  color: #181818;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -1839,7 +1839,7 @@ strong {
   padding: 10px;
   background-color: transparent;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -1916,7 +1916,7 @@ strong {
 .caption {
   margin-bottom: 30px;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.2em;
@@ -1930,7 +1930,7 @@ strong {
 .hero-text {
   margin-bottom: 140px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -1938,10 +1938,11 @@ strong {
 }
 
 .name-text-span {
-  border-bottom: 5px solid #181818;
-  font-size: 50px;
+  border-bottom: 1px solid #000000;
+  font-size: 60px;
   line-height: 1.35em;
   text-decoration: none;
+  color: #000000;
 }
 
 ._25vh-space {
@@ -2037,7 +2038,7 @@ strong {
   -webkit-transform: translate3d(0px, 0px, 50px);
   transform: translate3d(0px, 0px, 50px);
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 180px;
   font-weight: 500;
   -webkit-transform-style: preserve-3d;
@@ -2052,7 +2053,7 @@ strong {
   -webkit-transform: translate3d(0px, 0px, 15px);
   transform: translate3d(0px, 0px, 15px);
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 30px;
   font-weight: 400;
   -webkit-transform-style: preserve-3d;
@@ -2072,7 +2073,7 @@ strong {
   width: 80px;
   height: 1.5px;
   margin-right: 15px;
-  background-color: #181818;
+  background-color: #000000;
 }
 
 .project-number {
@@ -2096,7 +2097,7 @@ strong {
 
 .text-block-3 {
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -2231,7 +2232,7 @@ strong {
   z-index: 2;
   margin-bottom: 40px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -2311,7 +2312,7 @@ strong {
 .about-header-text {
   margin-bottom: 60px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -2479,7 +2480,7 @@ strong {
   -webkit-transform: translate3d(0px, 0px, 50px);
   transform: translate3d(0px, 0px, 50px);
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 180px;
   font-weight: 500;
   cursor: default;
@@ -2527,7 +2528,7 @@ strong {
 }
 
 .nav-text.black {
-  color: #181818;
+  color: #000000;
 }
 
 .about-list-text {
@@ -2536,7 +2537,7 @@ strong {
   margin-bottom: 4px;
   padding-left: 8px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -2836,7 +2837,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -2902,7 +2903,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 30px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 40px;
   line-height: 46px;
   font-weight: 500;
@@ -2918,7 +2919,7 @@ strong {
 
 .case-page-h1._60-b-margin {
   margin-bottom: 60px;
-  color: #181818;
+  color: #000000;
 }
 
 .case-page-h1.cherry {
@@ -2965,7 +2966,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25px;
   line-height: 32px;
   font-weight: 500;
@@ -3120,7 +3121,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 26px;
   font-weight: 300;
@@ -3185,7 +3186,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3220,7 +3221,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3474,7 +3475,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3486,7 +3487,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3498,7 +3499,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3510,7 +3511,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3522,7 +3523,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3534,7 +3535,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3617,7 +3618,7 @@ strong {
   align-items: flex-start;
   border-style: solid;
   border-width: 10px 1px 1px;
-  border-color: #181818 rgba(24, 24, 24, 0.15) rgba(24, 24, 24, 0.15);
+  border-color: #000000 rgba(24, 24, 24, 0.15) rgba(24, 24, 24, 0.15);
   background-color: transparent;
 }
 
@@ -3739,7 +3740,7 @@ strong {
   -ms-grid-row-align: auto;
   align-self: auto;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -3902,7 +3903,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25px;
   line-height: 32px;
   font-weight: 500;
@@ -4020,7 +4021,7 @@ strong {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 28px;
   line-height: 42px;
   font-weight: 400;
@@ -4059,7 +4060,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -4243,7 +4244,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -4252,7 +4253,7 @@ strong {
 }
 
 .black-link-text {
-  color: #181818;
+  color: #000000;
 }
 
 .black-link-text:hover {
@@ -4310,7 +4311,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -4516,7 +4517,7 @@ strong {
 .contact-header-text {
   margin-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -4535,7 +4536,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 22px;
   line-height: 1.5em;
   font-weight: 400;
@@ -4779,9 +4780,9 @@ strong {
   margin-top: 0px;
   margin-bottom: 140px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 50px;
-  line-height: 1.35em;
+  color: #000000;
+  font-size: 60px;
+  line-height: 1.2em;
   font-weight: 500;
 }
 
@@ -4871,7 +4872,7 @@ strong {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 28px;
   line-height: 42px;
   font-weight: 400;
@@ -4923,7 +4924,7 @@ strong {
 }
 
 .black-link-text-2 {
-  color: #181818;
+  color: #000000;
 }
 
 .black-link-text-2:hover {
@@ -4939,7 +4940,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -5233,7 +5234,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25px;
   line-height: 32px;
   font-weight: 500;
@@ -5435,7 +5436,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   font-weight: 400;
 }
@@ -5913,7 +5914,7 @@ html.w-mod-js *[data-ix="g-1"] {
     background-color: #fff;
   }
   .icon-2 {
-    color: #181818;
+    color: #000000;
   }
   .menu-button-2 {
     position: relative;
@@ -5946,7 +5947,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-pack: start;
     justify-content: flex-start;
     font-family: 'Cal custom', sans-serif;
-    color: #181818;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -5958,7 +5959,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    color: #181818;
+    color: #000000;
     text-decoration: underline;
   }
   .mobile-name-brand {
@@ -5984,7 +5985,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-align: center;
     align-items: center;
     font-family: 'Cal custom', sans-serif;
-    color: #181818;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -6528,7 +6529,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-pack: start;
     justify-content: flex-start;
     font-family: 'Cal custom', sans-serif;
-    color: #181818;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -6540,7 +6541,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    color: #181818;
+    color: #000000;
     text-decoration: underline;
   }
   .menu-button-4 {
@@ -6662,7 +6663,7 @@ html.w-mod-js *[data-ix="g-1"] {
     align-self: flex-start;
   }
   .text-large {
-    color: #181818;
+    color: #000000;
     font-size: 25.5px;
     line-height: 36px;
   }
@@ -7469,7 +7470,7 @@ html.w-mod-js *[data-ix="g-1"] {
   .case-list-text {
     margin-bottom: 3px;
     padding-left: 0px;
-    color: #181818;
+    color: #000000;
   }
   .case-list-text.white {
     padding-left: 0px;
@@ -7639,7 +7640,7 @@ html.w-mod-js *[data-ix="g-1"] {
   .case-list-text-2 {
     margin-bottom: 3px;
     padding-left: 0px;
-    color: #181818;
+    color: #000000;
   }
   .case-list-text-2.bottom {
     margin-bottom: 10px;
