@@ -1,7 +1,12 @@
 /* Creating CSS file in VSCode instead of using visual GUI in Webflow — July 12th 2021, super proud of myself!*/
 
-/* #BODY */
 
+
+@import url("v3-colorpallet.css");
+
+
+
+/* #BODY */
 .v3-body {
     display: flex;
     flex-direction: column;
@@ -239,6 +244,14 @@
 
     color: #181818;
 }
+.v3-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: var(--font-color-black);
+}
+.v3-small {
+    font-size: 14px;
+}
 
 /* #SECTIONS */
 
@@ -295,6 +308,7 @@
     grid-auto-flow: row;
     grid-template-areas:
       "grid-companyframe grid-experieneframe";
+    padding-bottom: 18px;
 }
 .grid-companyframe {
     display: flex;
