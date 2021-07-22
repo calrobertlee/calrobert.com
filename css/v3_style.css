@@ -252,6 +252,9 @@
 .s-20px {
     font-size: 20px;
 }
+.s-24px {
+    font-size: 24px;
+}
 .s-dark {
     color:var(--font-color-dark);
 }
@@ -260,6 +263,15 @@
 }
 .s-ltr-spacing-narrow {
     letter-spacing: -1.5%;
+}
+.s-marg-bot-32px {
+    margin-bottom: 32px;
+}
+.s-500 {
+    font-weight: 500;
+}
+.s-400 {
+    font-weight: 400;
 }
 
 /* #SECTIONS */
@@ -316,10 +328,10 @@
 }
 .resume-layout-grid {
     display: grid;
-    grid-template-columns: 0.314fr 1fr;
+    grid-template-columns: 0.3815fr 1fr;
     grid-template-rows: auto;
-    grid-row-gap: 16px;
-    grid-column-gap: 16px;
+    grid-row-gap: 56px;
+    grid-column-gap: 56px;
     grid-auto-flow: row;
     grid-template-areas:
       "grid-companyframe grid-experieneframe";
@@ -360,9 +372,9 @@
     -o-transition: .25s ease-in-out opacity;
     transition: .25s ease-in-out opacity;
 }
-.v3-project-block:hover {
+/* .v3-project-block:hover {
     opacity: 85%;
-}
+} */
 .v3-project-text-con {
     position: absolute;
     left: auto;
@@ -401,6 +413,23 @@
     top: 0%;
     right: auto;
     bottom: 0%;
+}
+
+/* HOME ANIMATION!!! */
+@keyframes slideInFromMid {
+    0% {
+        transform: translateY(8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.v3-project-column {
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: .3s ease-in 0s 1 slideInFromMid;
+    max-width: 960px;
 }
 
 /* ABOUT */
