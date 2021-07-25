@@ -43,7 +43,7 @@
     width: max-content;
     height: max-content;
 
-    font-family: Test Söhne Breit;
+    font-family: 'Test Söhne Breit';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -244,6 +244,30 @@
 
     color: #181818;
 }
+.v3-project-subheader {
+    /* caption */
+    margin-bottom: -16px;
+    font-family: 'Test Söhne Breit';    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+.v3-project-header {
+    /* caption */
+    margin-bottom: 40px;
+    font-family: 'Aeonik';    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 124px;
+    line-height: 114px;
+    margin-left: -7px;
+    text-transform: capitalize;
+    color: #000000;
+}
 .s-body {
     font-family: var(--font-family);
     font-size: 18px;
@@ -307,7 +331,7 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: 960px;
-    padding-bottom: 32px;
+    padding-bottom: 70px;
 }
 .v3-about-image {
     display: inline-block;
