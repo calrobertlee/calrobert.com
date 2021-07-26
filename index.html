@@ -48,8 +48,8 @@
     }(window, document);
   </script>
   <script type="text/javascript"> /* TEST WAIT TO LOAD */
-   $(window).load(function(){...}) {
-    $("#element-to-animate").addClass("v3-load-animation"); 
+   $(window).load(function(){
+    $("#v3-body").addClass("v3-load-animation"); 
     });
 </script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -85,7 +85,7 @@
   </style>
 </head>
 
-<body data-scroll-time=".3" class="v3-body">
+<body id="v3-body" data-scroll-time=".3" class="v3-body">
   <div id="top" class="top-of-page"></div>
   <div data-collapse="medium" data-animation="default" data-duration="0" data-easing="linear" data-easing2="linear"
     role="banner" class="navbar-4 white w-nav">
