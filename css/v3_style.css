@@ -9,7 +9,40 @@
     src: url('../fonts/SohneBreit-Halbfett.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
-  }
+}
+@font-face {
+    font-family: 'Aeonik';
+    src: url('../fonts/Cal-custom-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.v3-project-subheader {
+    /* caption */
+    margin-bottom: -16px;
+    font-family: 'SohneBreit-Halbfett';    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+.v3-project-header {
+    /* caption */
+    margin-bottom: 40px;
+    font-family: 'Aeonik';    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 124px;
+    line-height: 114px;
+    margin-left: -7px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
 
 /* #BODY */
 .v3-body {
