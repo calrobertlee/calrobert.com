@@ -4,7 +4,12 @@
 
 @import url("v3-theme.css");
 
-
+@font-face {
+    font-family: 'SohneBreit-Halbfett';
+    src: url('../fonts/SohneBreit-Halbfett.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
 
 /* #BODY */
 .v3-body {
