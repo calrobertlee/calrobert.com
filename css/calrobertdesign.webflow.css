@@ -5932,8 +5932,8 @@ html.w-mod-js *[data-ix="g-1"] {
   .nav-menu-2 {
     z-index: 1000;
     display: block;
-    border-bottom: 0.5px solid #b9b9b9;
     background-color: #fff;
+    height: 100%;
   }
   .mobile-nav-link {
     display: -webkit-box;
