@@ -12,8 +12,8 @@
   <link href="../css/webflow.css" rel="stylesheet" type="text/css">
   <link href="../css/calrobertdesign.webflow.css" rel="stylesheet" type="text/css">
   <link href="../css/v3_style.css" rel="stylesheet" type="text/css">
+  <script src="../js/jquery-3.6.0.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript">
     WebFont.load({
       google: {
@@ -48,14 +48,14 @@
         "https://uploads-ssl.webflow.com/5d5adf282a3dd539ff0ab24f/5df8385e213e473f3bfd0ab0_fav%2032x32_white2.png";
     });
   </script>
-  <script type="text/javascript"> /* TEST WAIT TO LOAD */
-    $(window).load(function(){
-      $("#all").addClass("v3-load-animation"); 
-      });
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $("#all").addClass("v3-load-animation"); 
+    });
   </script>
 </head>
 
-<body id="all" data-scroll-time=".3" class="about-page-body">
+<body data-scroll-time=".3" class="about-page-body">
     <div id="top" class="top-of-page">
         <div data-collapse="medium" data-animation="default" data-duration="0" data-easing="ease-in-out-quad"
           data-easing2="ease-in-out-quad" role="banner" class="navbar-4 white w-nav">
@@ -107,13 +107,13 @@
             The image below represents a matured state of the system during its evolution.
           </p>
         </div>
-        <img src="../images/project_images/celo_design-system.jpg" alt="" style="width: 100VW;" class="v3-load-animation">
+        <img id="all" src="../images/project_images/celo_design-system.jpg" alt="" style="width: 100VW;" class="v3-load-animation">
     </div>
 
 
 
 
-    <div class="footer-section v3-load-animation">
+    <div id="all" class="footer-section v3-load-animation">
       <div class="v3-footer-con" style="border-top: 1px solid #ededed; padding-top: 70px">
         <div class="v3-caption">Get in touch</div>
         <div class="closing-text">
