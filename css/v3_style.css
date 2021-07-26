@@ -450,20 +450,37 @@
 }
 
 /* HOME ANIMATION!!! */
-@keyframes slideInFromMid {
+@keyframes moveAnimation { 
     0% {
         transform: translateY(8px);
     }
-
     100% {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
 }
 
-.v3-project-column {
-    /* This section calls the slideInFromLeft animation we defined above */
-    animation: .3s ease-in 0s 1 slideInFromMid;
-    max-width: 960px;
+@keyframes opacityAnimation { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ScaleAnimation
+{
+-webkit-animation-name: scaleAnimation;  /*and also -moz, -ms etc. */
+animation-name: scaleAnimation;
+}
+
+.v3-load-animation {
+    animation-fill-mode: both;
+    animation-delay: 100ms, 100ms;
+    animation-duration: 300ms, 300ms;
+    animation-name: moveAnimation, opacityAnimation;
+    animation-timing-function: 
+        cubic-bezier(0, 0.202, 0.251, 0.997),  cubic-bezier(0.316, 0.026, 0.795, 0.985);
 }
 
 /* ABOUT */
