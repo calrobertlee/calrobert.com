@@ -48,10 +48,11 @@
     }(window, document);
   </script>
   <script type="text/javascript"> /* TEST WAIT TO LOAD */
-   $(window).load(function(){
-    $("#all").addClass("v3-load-animation"); 
+    $(window).load(function() {
+      // When the page has loaded
+      $("v3-body").addClass("v3-load-animation-test"); 
     });
-</script>
+  </script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-159814186-1"></script> -->
@@ -85,7 +86,7 @@
   </style>
 </head>
 
-<body id="all" data-scroll-time=".3" class="v3-body">
+<body id="all" data-scroll-time=".3" class="v3-body v3-load-animation-test">
   <div id="top" class="top-of-page"></div>
   <div data-collapse="medium" data-animation="default" data-duration="0" data-easing="linear" data-easing2="linear"
     role="banner" class="navbar-4 white w-nav">

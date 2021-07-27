@@ -46,10 +46,11 @@
 
 /* #BODY */
 .v3-body {
-    display: flex;
+    /* display: flex; trying out animations */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    display: none;
 }
 
 /* #NAVBAR & FOOTER */
@@ -554,6 +555,15 @@ animation-name: opacityAnimation;
 }
 
 .v3-load-animation {
+    animation-fill-mode: both;
+    animation-delay: 100ms, 100ms;
+    animation-duration: 300ms, 300ms;
+    animation-name: moveAnimation, opacityAnimation;
+    animation-timing-function: 
+        cubic-bezier(0, 0.202, 0.251, 0.997),  cubic-bezier(0.316, 0.026, 0.795, 0.985);
+}
+.v3-load-animation-test {
+    display: flex;
     animation-fill-mode: both;
     animation-delay: 100ms, 100ms;
     animation-duration: 300ms, 300ms;
