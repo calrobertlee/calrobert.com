@@ -325,6 +325,9 @@
     text-decoration: none;
     color: #000000;
 }
+.s-16px {
+    font-size: 16px;
+}
 .s-20px {
     font-size: 20px;
 }
@@ -334,7 +337,15 @@
 .s-52px {
     font-size: 52px;
 }
-
+.s-124px {
+    font-size: 124px;
+}
+.s-line-height-114px {
+    line-height: 114px;
+}
+.s-letter-spacing-narrow {
+    letter-spacing: -0.015em;
+}
 
 .s-dark {
     color:var(--font-color-dark);
@@ -344,6 +355,10 @@
 }
 .s-ltr-spacing-narrow {
     letter-spacing: -1.5%;
+}
+
+.s-bot-0 {
+    bottom: 0px;
 }
 .s-marg-bot-32px {
     margin-bottom: 32px;
@@ -467,15 +482,7 @@
     max-width: 100%;
     display: inline-block;
     cursor: pointer;
-
-    -webkit-transition: .25s ease-in-out opacity;
-    -moz-transition: .25s ease-in-out opacity;
-    -o-transition: .25s ease-in-out opacity;
-    transition: .25s ease-in-out opacity;
 }
-/* .v3-project-block:hover {
-    opacity: 85%;
-} */
 .v3-project-text-con {
     position: absolute;
     left: auto;
@@ -535,10 +542,15 @@
     }
 }
 
-.ScaleAnimation
+.moveAnimation
 {
--webkit-animation-name: scaleAnimation;  /*and also -moz, -ms etc. */
-animation-name: scaleAnimation;
+-webkit-animation-name: moveAnimation;  /*and also -moz, -ms etc. */
+animation-name: moveAnimation;
+}
+.opacityAnimation
+{
+-webkit-animation-name: opacityAnimation;  /*and also -moz, -ms etc. */
+animation-name: opacityAnimation;
 }
 
 .v3-load-animation {
@@ -549,8 +561,30 @@ animation-name: scaleAnimation;
     animation-timing-function: 
         cubic-bezier(0, 0.202, 0.251, 0.997),  cubic-bezier(0.316, 0.026, 0.795, 0.985);
 }
+.v3-slow-fade-animation {
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+    animation-duration: 500ms;
+    animation-name: opacityAnimation;
+    animation-timing-function: 
+        ease-in;
+}
 
 /* dimensions and alignment */
+.s-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.s-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.s-display-inline {
+    display: inline;
+}
+.s-end-align {
+    align-self: flex-end;
+}
 .s-center {
     display: flex;
     flex-direction: column;
@@ -567,6 +601,9 @@ animation-name: scaleAnimation;
 }
 .s-w-720px {
     max-width: 720px;
+}
+.s-w-800px {
+    max-width: 800px;
 }
 .s-bot-pad-70 {
     padding-bottom: 70px;
@@ -588,6 +625,9 @@ animation-name: scaleAnimation;
 }
 .s-pad-64 {
     padding: 64px;
+}
+.hidden {
+    display: none;
 }
 
 /* #BREAKPOINTS*/
