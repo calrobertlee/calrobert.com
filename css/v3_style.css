@@ -630,6 +630,11 @@ animation-name: opacityAnimation;
     display: none;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
 /* #BREAKPOINTS*/
 
 @media screen and (max-width: 991px) {
