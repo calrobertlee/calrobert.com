@@ -64,6 +64,11 @@
       $("#all").addClass("v3-load-animation");
     });
   </script>
+  <script type="text/javascript"> /* TEST WAIT TO LOAD */
+    $(window).on('load', function () {
+        $('.v3-body').addClass('loaded');
+    });
+  </script>
 </head>
 
 <body id="all" data-scroll-time=".3" class="about-page-body">
