@@ -40,6 +40,17 @@
         $('.about-page-body').addClass('loaded');
     });
   </script>
+  <script type="text/javascript">
+     $(window).on('load', function () {
+        if (jQuery) {  
+          // jQuery is loaded  
+          alert("Learning to code my first website (this one) since last week — the content is not final. July 28th, 2021");
+        } else {
+          // jQuery is not loaded
+          alert("Doesn't Work");
+        }
+    });
+  </script>
 </head>
 
 <body id="all" data-scroll-time=".3" class="about-page-body">
