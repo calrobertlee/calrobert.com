@@ -11,9 +11,9 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  color: #333;
-  font-size: 18px;
+  font-family: 'Aeonik', system-ui, 'Helvetica Neue', sans-serif;
+  color: #000000;
+  font-size: 20px;
   line-height: 29px;
   font-weight: 300;
 }
@@ -91,7 +91,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: Aeonik;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 70.7px;
   font-weight: 500;
@@ -108,7 +108,7 @@ strong {
 .text-large.home-page {
   margin-top: 240px;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 70.7px;
   font-weight: 500;
@@ -560,7 +560,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 32px;
   line-height: 42px;
   font-weight: 600;
@@ -682,7 +682,7 @@ strong {
 
 .text-caption.black.bold {
   margin-bottom: 20px;
-  color: #181818;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -760,7 +760,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 40px;
   line-height: 46px;
   font-weight: 500;
@@ -784,13 +784,13 @@ strong {
 .text-heading-2.white.regular.red {
   margin-bottom: 0px;
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 36px;
   line-height: 40px;
 }
 
 .text-heading-2.black {
-  color: #181818;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -809,7 +809,7 @@ strong {
 .text-heading-2.white.regular.red {
   margin-bottom: 0px;
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 36px;
   line-height: 40px;
 }
@@ -820,7 +820,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   font-weight: 400;
 }
@@ -967,7 +967,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -1111,7 +1111,7 @@ strong {
 }
 
 .text-span-5 {
-  color: #181818;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -1138,7 +1138,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25.45px;
   line-height: 25.45px;
   font-weight: 600;
@@ -1227,7 +1227,7 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 25.45px;
   font-weight: 400;
@@ -1643,7 +1643,7 @@ strong {
 
 .text-score {
   font-family: 'SF Compact Display', sans-serif;
-  color: #181818;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -1839,7 +1839,7 @@ strong {
   padding: 10px;
   background-color: transparent;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -1901,14 +1901,7 @@ strong {
   display: flex;
   width: 85%;
   max-width: 960px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
@@ -1917,14 +1910,13 @@ strong {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  -webkit-perspective: 2000px;
   perspective: 2000px;
 }
 
 .caption {
   margin-bottom: 30px;
   font-family: SF, sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.2em;
@@ -1938,7 +1930,7 @@ strong {
 .hero-text {
   margin-bottom: 140px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -1946,10 +1938,12 @@ strong {
 }
 
 .name-text-span {
-  border-bottom: 5px solid #181818;
-  font-size: 50px;
+  border-bottom: 1px solid #000000;
+  font-size: 60px;
   line-height: 1.35em;
   text-decoration: none;
+  color: #000000;
+  z-index: 10;
 }
 
 ._25vh-space {
@@ -2045,7 +2039,7 @@ strong {
   -webkit-transform: translate3d(0px, 0px, 50px);
   transform: translate3d(0px, 0px, 50px);
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 180px;
   font-weight: 500;
   -webkit-transform-style: preserve-3d;
@@ -2060,7 +2054,7 @@ strong {
   -webkit-transform: translate3d(0px, 0px, 15px);
   transform: translate3d(0px, 0px, 15px);
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 30px;
   font-weight: 400;
   -webkit-transform-style: preserve-3d;
@@ -2080,7 +2074,7 @@ strong {
   width: 80px;
   height: 1.5px;
   margin-right: 15px;
-  background-color: #181818;
+  background-color: #000000;
 }
 
 .project-number {
@@ -2104,7 +2098,7 @@ strong {
 
 .text-block-3 {
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -2239,7 +2233,7 @@ strong {
   z-index: 2;
   margin-bottom: 40px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -2272,24 +2266,11 @@ strong {
 }
 
 .gallery-page-body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  margin-right: 80px;
-  margin-left: 80px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
+  margin-right: 24px;
+  margin-left: 24px;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   background-color: #000;
 }
@@ -2310,48 +2291,29 @@ strong {
 }
 
 .about-page-body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
 }
 
 .container-about-page {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 85%;
   height: 100%;
-  max-width: 800px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
+  max-width: 960px;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
   align-self: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
   flex: 0 auto;
-  -webkit-perspective: 2000px;
   perspective: 2000px;
 }
 
 .about-header-text {
   margin-bottom: 60px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -2519,7 +2481,7 @@ strong {
   -webkit-transform: translate3d(0px, 0px, 50px);
   transform: translate3d(0px, 0px, 50px);
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 180px;
   font-weight: 500;
   cursor: default;
@@ -2536,42 +2498,20 @@ strong {
 }
 
 .footer-section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-bottom: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .footer-container-alt {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 85%;
   max-width: 1080px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
   align-self: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
   flex: 0 auto;
-  -webkit-perspective: 2000px;
   perspective: 2000px;
 }
 
@@ -2589,7 +2529,7 @@ strong {
 }
 
 .nav-text.black {
-  color: #181818;
+  color: #000000;
 }
 
 .about-list-text {
@@ -2598,7 +2538,7 @@ strong {
   margin-bottom: 4px;
   padding-left: 8px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -2898,9 +2838,9 @@ strong {
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
-  line-height: 29.3px;
+  line-height: 1.66em;
   font-weight: 400;
   text-align: left;
   white-space: normal;
@@ -2964,7 +2904,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 30px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 40px;
   line-height: 46px;
   font-weight: 500;
@@ -2980,7 +2920,7 @@ strong {
 
 .case-page-h1._60-b-margin {
   margin-bottom: 60px;
-  color: #181818;
+  color: #000000;
 }
 
 .case-page-h1.cherry {
@@ -3027,7 +2967,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25px;
   line-height: 32px;
   font-weight: 500;
@@ -3172,18 +3112,6 @@ strong {
   display: block;
 }
 
-.g-text-1 {
-  position: absolute;
-  z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: center;
-}
-
 .pic-2 {
   position: relative;
   z-index: auto;
@@ -3194,7 +3122,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 26px;
   font-weight: 300;
@@ -3259,7 +3187,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3294,7 +3222,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3548,7 +3476,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3560,7 +3488,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3572,7 +3500,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3584,7 +3512,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3596,7 +3524,7 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
@@ -3608,49 +3536,27 @@ strong {
   z-index: 1;
   padding-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
   text-align: center;
 }
 
-.g-text-12 {
+.g-text-1, .g-text-2, .g-text-3, .g-text-4, .g-text-5, .g-text-6, .g-text-7, .g-text-8, .g-text-9, .g-text-10, .g-text-11, .g-text-12, .g-text-13, .g-text-14 {
   position: absolute;
   z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
+  padding-bottom: 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 32px;
-  font-weight: 300;
+  color: #000000;
   text-align: center;
 }
-
-.g-text-13 {
-  position: absolute;
-  z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: center;
+.g-text-5 {
+  color: #f0f0f0f1; 
 }
-
-.g-text-14 {
-  position: absolute;
-  z-index: 1;
-  padding-bottom: 10px;
-  font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: 300;
-  text-align: center;
-}
-
 .slide-2 {
   border-radius: 6px;
   background-image: url('../images/57125763_2333482706940205_1002290988581912576_o.jpg'), url('../images/IMG_3035.jpeg');
@@ -3713,7 +3619,7 @@ strong {
   align-items: flex-start;
   border-style: solid;
   border-width: 10px 1px 1px;
-  border-color: #181818 rgba(24, 24, 24, 0.15) rgba(24, 24, 24, 0.15);
+  border-color: #000000 rgba(24, 24, 24, 0.15) rgba(24, 24, 24, 0.15);
   background-color: transparent;
 }
 
@@ -3835,7 +3741,7 @@ strong {
   -ms-grid-row-align: auto;
   align-self: auto;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -3998,7 +3904,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25px;
   line-height: 32px;
   font-weight: 500;
@@ -4116,7 +4022,7 @@ strong {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 28px;
   line-height: 42px;
   font-weight: 400;
@@ -4155,7 +4061,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -4339,7 +4245,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -4348,7 +4254,7 @@ strong {
 }
 
 .black-link-text {
-  color: #181818;
+  color: #000000;
 }
 
 .black-link-text:hover {
@@ -4406,7 +4312,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   line-height: 29.3px;
   font-weight: 400;
@@ -4589,58 +4495,30 @@ strong {
 }
 
 .contact-body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  color: #000;
 }
 
 .contact-con {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 85%;
   height: 100%;
-  max-width: 720px;
-  padding: 60px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
+  max-width: 640px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 80px;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
   align-self: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
   flex: 0 auto;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #dbdce0;
-  border-radius: 10px;
-  -webkit-perspective: 2000px;
-  perspective: 2000px;
 }
 
 .contact-header-text {
   margin-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 50px;
   line-height: 1.35em;
   font-weight: 500;
@@ -4654,12 +4532,12 @@ strong {
 
 .contact-body-text {
   position: static;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 22px;
   line-height: 1.5em;
   font-weight: 400;
@@ -4681,7 +4559,7 @@ strong {
 
 .text-field {
   height: 48px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   border: 1px solid #dbdce0;
   border-radius: 4px;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -4695,13 +4573,21 @@ strong {
   border-color: #0061ff;
 }
 
-.submit-button-2 {
-  height: 50px;
-  padding: 9px 40px;
-  border-radius: 4px;
-  background-color: #0061ff;
+.submit-button-2 { 
   font-family: 'Cal custom', sans-serif;
   font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  line-height: normal;
+  padding: 16px 32px;
+  position: relative;
+  min-width: 180px;
+  width: fit-content;
+  height: 54px;
+  border-radius: 4px;
+
+  color: white;
+  background-color: #002AFE;
 }
 
 .submit-button-2:hover {
@@ -4721,7 +4607,7 @@ strong {
 
 .text-field-50.left {
   margin-right: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   border: 1px solid #dbdce0;
   color: #202124;
 }
@@ -4745,7 +4631,7 @@ strong {
 
 .textarea {
   min-height: 140px;
-  margin-bottom: 60px;
+  margin-bottom: 32px;
   border: 1px solid #dbdce0;
   border-radius: 4px;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -4895,9 +4781,9 @@ strong {
   margin-top: 0px;
   margin-bottom: 140px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
-  font-size: 50px;
-  line-height: 1.35em;
+  color: #000000;
+  font-size: 60px;
+  line-height: 1.2em;
   font-weight: 500;
 }
 
@@ -4987,7 +4873,7 @@ strong {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 28px;
   line-height: 42px;
   font-weight: 400;
@@ -5039,7 +4925,7 @@ strong {
 }
 
 .black-link-text-2 {
-  color: #181818;
+  color: #000000;
 }
 
 .black-link-text-2:hover {
@@ -5055,7 +4941,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -5349,7 +5235,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 25px;
   line-height: 32px;
   font-weight: 500;
@@ -5551,7 +5437,7 @@ strong {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Cal custom', sans-serif;
-  color: #181818;
+  color: #000000;
   font-size: 18px;
   font-weight: 400;
 }
@@ -5664,7 +5550,7 @@ html.w-mod-js *[data-ix="roll-over-fade-5"] {
 html.w-mod-js *[data-ix="g-1"] {
   opacity: 1;
 }
-
+/* BREAKPOINT — Tablet — 991px wide and below */
 @media screen and (max-width: 991px) {
   .text-large {
     font-size: 40px;
@@ -6029,7 +5915,7 @@ html.w-mod-js *[data-ix="g-1"] {
     background-color: #fff;
   }
   .icon-2 {
-    color: #181818;
+    color: #000000;
   }
   .menu-button-2 {
     position: relative;
@@ -6047,8 +5933,8 @@ html.w-mod-js *[data-ix="g-1"] {
   .nav-menu-2 {
     z-index: 1000;
     display: block;
-    border-bottom: 0.5px solid #b9b9b9;
     background-color: #fff;
+    height: 100%;
   }
   .mobile-nav-link {
     display: -webkit-box;
@@ -6062,7 +5948,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-pack: start;
     justify-content: flex-start;
     font-family: 'Cal custom', sans-serif;
-    color: #181818;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -6074,7 +5960,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    color: #181818;
+    color: #000000;
     text-decoration: underline;
   }
   .mobile-name-brand {
@@ -6100,7 +5986,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-align: center;
     align-items: center;
     font-family: 'Cal custom', sans-serif;
-    color: #181818;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -6292,62 +6178,6 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-  }
-  .g-text-1 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-3.white {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-2 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-4 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-5 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-6 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-7 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-8 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-9 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-10 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-11 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-12 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-13 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .g-text-14 {
-    font-size: 16px;
-    line-height: 16px;
   }
   .dashboard-hero-image {
     display: block;
@@ -6700,7 +6530,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -ms-flex-pack: start;
     justify-content: flex-start;
     font-family: 'Cal custom', sans-serif;
-    color: #181818;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -6712,7 +6542,7 @@ html.w-mod-js *[data-ix="g-1"] {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    color: #181818;
+    color: #000000;
     text-decoration: underline;
   }
   .menu-button-4 {
@@ -6823,6 +6653,7 @@ html.w-mod-js *[data-ix="g-1"] {
   }
 }
 
+/* BREAKPOINT — Mobile Landscape — 767px wide and below */
 @media screen and (max-width: 767px) {
   .container.hyperlinks {
     min-height: 40px;
@@ -6833,7 +6664,7 @@ html.w-mod-js *[data-ix="g-1"] {
     align-self: flex-start;
   }
   .text-large {
-    color: #181818;
+    color: #000000;
     font-size: 25.5px;
     line-height: 36px;
   }
@@ -7358,6 +7189,7 @@ html.w-mod-js *[data-ix="g-1"] {
   }
 }
 
+/* BREAKPOINT — Mobile Portrait — 479px wide and below */
 @media screen and (max-width: 479px) {
   .container {
     margin-right: 20px;
@@ -7639,7 +7471,7 @@ html.w-mod-js *[data-ix="g-1"] {
   .case-list-text {
     margin-bottom: 3px;
     padding-left: 0px;
-    color: #181818;
+    color: #000000;
   }
   .case-list-text.white {
     padding-left: 0px;
@@ -7809,7 +7641,7 @@ html.w-mod-js *[data-ix="g-1"] {
   .case-list-text-2 {
     margin-bottom: 3px;
     padding-left: 0px;
-    color: #181818;
+    color: #000000;
   }
   .case-list-text-2.bottom {
     margin-bottom: 10px;
