@@ -49,7 +49,7 @@
     }(window, document);
   </script>
   <script type="text/javascript"> /* TEST WAIT TO LOAD */
-      $(document).ready(function () {
+      $(window).on('load', function () {
           $('.v3-body').addClass('loaded');
       });
   </script>
@@ -67,7 +67,7 @@
       'anonymize_ip': false
     });
   </script>
-  <script>
+  <!-- <script>
     //to change out default site Favicon
     var anchors = document.querySelectorAll(
       'link[href*="https://uploads-ssl.webflow.com/5d5adf282a3dd539ff0ab24f/5df8385e213e473f3bfd0ab0_fav%2032x32_white2.png"]'
@@ -76,7 +76,7 @@
       element.href =
         "https://uploads-ssl.webflow.com/5d5adf282a3dd539ff0ab24f/5df8385e213e473f3bfd0ab0_fav%2032x32_white2.png";
     });
-  </script>
+  </script> -->
 
 </head>
 
