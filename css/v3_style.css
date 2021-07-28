@@ -565,6 +565,14 @@ animation-name: opacityAnimation;
     animation-timing-function: 
         cubic-bezier(0, 0.202, 0.251, 0.997),  cubic-bezier(0.316, 0.026, 0.795, 0.985);
 }
+.v3-load-animation-fade {
+    animation-fill-mode: both;
+    animation-delay: 300ms;
+    animation-duration: 500ms;
+    animation-name: opacityAnimation;
+    animation-timing-function: 
+        cubic-bezier(0.316, 0.026, 0.795, 0.985);
+}
 .v3-slow-fade-animation {
     animation-fill-mode: both;
     animation-delay: 1.5s;
