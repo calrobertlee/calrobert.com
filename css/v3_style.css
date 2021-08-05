@@ -739,6 +739,9 @@ animation-name: opacityAnimation;
 .s-bot-pad-32 {
     padding-bottom: 32px;
 }
+.s-bot-pad-16 {
+    padding-bottom: 16px;
+}
 .s-bot-pad-4 {
     padding-bottom: 4px;
 }
