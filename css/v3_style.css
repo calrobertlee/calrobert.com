@@ -55,6 +55,9 @@
 .loaded {
     display: flex !important;
 }
+.overflow-hidden {
+    overflow-y: hidden;
+}
 
 /* #NAVBAR & FOOTER */
 
