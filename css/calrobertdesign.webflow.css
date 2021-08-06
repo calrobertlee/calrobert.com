@@ -4504,10 +4504,7 @@ strong {
 .contact-con {
   display: flex;
   width: 85%;
-  height: 100%;
   max-width: 640px;
-  padding-top: 120px;
-  padding-bottom: 120px;
   margin-top: 80px;
   flex-direction: column;
   justify-content: flex-start;
